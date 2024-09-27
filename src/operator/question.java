@@ -45,8 +45,7 @@ public class question {
 				System.out.println("음료나왔습니다.\n맛있게 드세요.");
 		}
 
-		else {
+		else
 			System.out.println("음료나왔습니다.\n맛있게 드세요.");
-		}
 	}
 }
