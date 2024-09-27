@@ -9,7 +9,7 @@ public class Quiz01 {
 		System.out.print("수 입력 : ");
 		int num1 = scan.nextInt();
 		String a = (num1 % 2 == 0 && num1 % 3 != 0) ? num1 + " = 짝수\n" + num1 + " = 3의 배수가 아니다."
-				: num1 + "짝수인데 3의 배수 혹은 " + num1 + "홀수인데 3의 배수일수도 있고 아닐수도 있다.";
+				: num1 + " = 짝수인데 3의 배수 혹은 홀수인데 3의 배수일수도 있고 아닐수도 있다.";
 		System.out.println(a);
 
 		System.out.print("두 수 입력 : ");
